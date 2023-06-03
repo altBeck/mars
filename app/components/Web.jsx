@@ -2,7 +2,7 @@
 const Web = () => {
   return (
     <div id="web">
-      <div className="">Web</div>
+      Web
     </div>
   )
 }
