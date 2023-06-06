@@ -28,3 +28,17 @@ body {
   max-width: 1280px;
   margin: 0 auto;
 }
+
+.text-dawn {
+  --tw-text-opacity: 1; color: rgb(148 148 149/var(--tw-text-opacity));
+}
+
+.text-zenith {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255/var(--tw-text-opacity));
+}
+
+.bg-zenith {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255/var(--tw-bg-opacity));
+}

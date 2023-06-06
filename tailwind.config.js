@@ -24,16 +24,19 @@ module.exports = {
         fill: ['hover', 'focus'],
         stroke: ['hover', 'focus'],
       },
-      colors:{
+
+      colors: {
         'sea': '#1e1e1e',
         'dbbb': '#ea4c89',
         'lkn': '#0072b1',
         'twttr': '#00acee',
         'gray-950': '#101010',
       },
+
       gridTemplateColumns: {
         "grid-cols-1fr-5fr" : "1fr minmax(0,5fr)",
       },
+
       "from-gray-950": {
         "--tw-gradient-from": "#101010",
         "--tw-gradient-stops": "var(--tw-gradient-from),var(--tw-gradient-to,hsla(0,0%,6%,0))",

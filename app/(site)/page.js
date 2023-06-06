@@ -66,11 +66,21 @@ export default function Home() {
               <nav>
                 <ul>
                   <li>
-                    <a href="#design">-- PRODUCT DESIGN</a>
+                    <a className="inline-flex items-center transition group group-hover:duration-600 text-zenith" href="#design">
+                      <span className="text-xs tracking-wide">00</span>
+                      <span className="border mx-2 w-8 group-hover:w-12 rounded-sm transition text-zenith hover:duration-600 "></span>
+                      <span className="text-xs tracking-widest uppercase">PRODUCT DESIGN</span>
+                    </a>
                   </li>
-                  <li>
-                    <a href="#web">-- WEB DEV</a>
+
+                  <li className="my-4">
+                    <a className="inline-flex items-center transition group group-hover:duration-600 text-zenith" href="#web">
+                      <span className="text-xs tracking-wide">01</span>
+                      <span className="border mx-2 w-8 group-hover:w-12 rounded-sm transition group-hover:text-zenith hover:duration-600 "></span>
+                      <span className="text-xs tracking-widest uppercase">WEB DEV</span>
+                    </a>
                   </li>
+
                   <li>
                     <a href="#repo">-- GITHUB REPOS</a>
                   </li>
@@ -80,14 +90,54 @@ export default function Home() {
 
               <div className="py-6 md:py-24"></div>
 
-              <div>
-                <Image 
-                  src="/images/image.png"
-                  alt="Beck Kanno's image"
-                  width={50}
-                  height={50}
-                />
+              <div className="flex justify-between py-4">
+                <div>
+                  <Image 
+                    src="/images/img.png"
+                    alt="Beck Kanno's image"
+                    width={50}
+                    height={50}
+                  />
+                </div>
+
+                <div className="flex">
+
+                  <a href="https://github.com/altbeck" className="flex items-center px-2 text-white">
+                    <Image 
+                      src="/images/github.svg"
+                      alt="GitHub 3d icon"
+                      href="https://github.com/altbeck"
+                      width={24}
+                      height={24}
+                    />
+                  </a>
+
+                  <a href="https;//dribbble.com/bekkr"
+                    className="flex px-2 items-center text-white">
+
+                    <Image 
+                    src="/images/dribbble.svg"
+                    alt="Dribbble 3d icon"
+                    width={24}
+                    height={24}
+                    />
+                  </a>
+
+                  <a href="https://linkedin.com/in/kanno-beck" className="flex pl-2 items-center text-white">
+                    <Image 
+                    src="/images/linkedin.svg"
+                    alt="Linkedin 3d icon"
+                    width={24}
+                    height={24}
+                    />
+                  </a>
+                </div>
+
               </div>
+
+              <button className="flex gap-x-2 text-white md:p-3 bg-sea justify-center p-2 hover:bg-gradient-to-t from-gray-950 to-sea rounded-md shadow-highlight w-full">
+                <a className="flex" href="">My Resume</a>
+              </button>
 
             </header>
           </div>
